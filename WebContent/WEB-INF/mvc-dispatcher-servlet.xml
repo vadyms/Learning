@@ -6,7 +6,8 @@
     <bean name="/index.jsp" class="com.MainController" />
     <bean name="/authorization/login" class="com.LoginController" />
     <bean name="/authorization/register" class="com.RegisterController" />
-
+	<bean name = "/addInfo" class = "com.RequestsController" />
+	
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
         <property name="prefix" value="/WEB-INF/"/>
         <property name="suffix" value=".jsp"/>

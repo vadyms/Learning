@@ -8,12 +8,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-Hello!!!
-<a href="welcome" >wecome</a>
-<a href="welcome1.html" >wecome1.html</a>
-<a href="pages/authorization/login" >authorization</a>
-<a href="pages/authorization/register" >register</a>
-<br/>
-
+	Hello!!!
+	<a href="welcome" >wecome</a>
+	<a href="welcome1.html" >wecome1.html</a>
+	<a href="pages/authorization/login" >authorization</a>
+	<a href="pages/authorization/register" >register</a>
+	<a href="register" >register new</a>
+	<br/>
+	<a href="pages/addInfo">add info form</a>
 </body>
 </html>

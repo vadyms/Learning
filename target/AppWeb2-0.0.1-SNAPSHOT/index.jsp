@@ -11,31 +11,10 @@
 Hello!!!
 <a href="welcome" >wecome</a>
 <a href="welcome1.html" >wecome1.html</a>
-<a href="authorization" >authorization</a>
+<a href="pages/authorization/login" >authorization</a>
+<a href="pages/authorization/register" >register</a>
+<a href="register" >register new</a>
 <br/>
-<!-- 
-<h2>User</h2>
-<form:form>
-   <table>
-    <tr>
-        <td><form:label path="name">Name</form:label></td>
-        <td><form:input path="name" /></td>
-    </tr>
-    <tr>
-        <td><form:label path="password">Age</form:label></td>
-        <td><form:input path="password" /></td>
-    </tr>
-    <tr>
-        <td><form:label path="email">id</form:label></td>
-        <td><form:input path="email" /></td>
-    </tr>
-    <tr>
-        <td colspan="2">
-            <input type="submit" value="Submit"/>
-        </td>
-    </tr>
-</table>  
-</form:form>
- -->
+<a href="addInfo">add info form</a>
 </body>
 </html>

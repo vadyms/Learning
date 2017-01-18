@@ -3,11 +3,13 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-    <bean name="/welcome" class="com.HelloWorldController" />
-    <bean name="/index.html" class="com.MainController" />
-
+    <bean name="/index.jsp" class="com.MainController" />
+    <bean name="/authorization/login" class="com.LoginController" />
+    <bean name="/authorization/register" class="com.RegisterController" />
+	<bean name = "addInfo" class = "com.controller.RequestsController" />
+	
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
-        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="prefix" value="/WEB-INF/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 

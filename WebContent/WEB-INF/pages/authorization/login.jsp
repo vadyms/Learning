@@ -12,12 +12,12 @@ Login page:
 <form:form action="loginUser" method="POST">
    <table>
     <tr>
-        <td><form:label path="name">Name</form:label></td>
+        <td><form:label path="name">name</form:label></td>
         <td><form:input path="name" /></td>
     </tr>
     <tr>
-        <td><form:label path="password">Age</form:label></td>
-        <td><form:input path="password" /></td>
+        <td><form:label path="password">password</form:label></td>
+        <td><form:password path="password" /></td>
     </tr>
     <tr>
         <td colspan="2">

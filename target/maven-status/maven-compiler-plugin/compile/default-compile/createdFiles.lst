@@ -1,4 +1,6 @@
-com\AuthController.class
+com\RequestsController.class
+com\LoginController.class
 com\HelloWorldController.class
+com\RegisterController.class
 com\model\User.class
 com\MainController.class
